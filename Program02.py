@@ -4,3 +4,6 @@ c = int(input("Third number: "))
 
 if a < b and a < c:
     print(f"{a}")
+elif b < a and b < c:
+    print(f"{b}")
+    
