@@ -12,3 +12,6 @@ elif grade >= 91 and grade <= 93:
 elif grade >= 88 and grade <= 90:
     print("Grade/Mark: 1.75")
     print("Description: Very Good")
+elif grade >= 85 and grade <= 87:
+    print("Grade/Mark: 2.0")
+    print("Description: Good")
