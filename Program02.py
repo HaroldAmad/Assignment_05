@@ -3,7 +3,8 @@ b = int(input("Second number: "))
 c = int(input("Third number: "))
 
 if a < b and a < c:
-    print(f"{a}")
+    print(f"The lowest number is{a}")
 elif b < a and b < c:
-    print(f"{b}")
-    
+    print(f"The lowest number is {b}")
+else:
+    print(f"The lowest number is {c}")
