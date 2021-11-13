@@ -30,3 +30,5 @@ elif grade ==75:
 elif grade >= 65 and grade <= 74:
     print("Grade/Mark: 5.0")
     print("Description: Failure")
+else:
+    print("The student is either Incomplete (Inc.), Widrawn (W), or Dropped (D)")
