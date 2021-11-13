@@ -1,4 +1,4 @@
-grade = float(input ("Grade Percentage: "))
+grade = round(float(input ("Grade Percentage: ")))
 
 if grade >= 97 and grade <= 100:
     print("Grade/Mark: 1.0")
@@ -24,7 +24,7 @@ elif grade >= 79 and grade <= 81:
 elif grade >= 76 and grade <= 78:
     print("Grade/Mark: 2.75")
     print("Description: Satisfactory")
-elif grade ==75:
+elif grade >= 75 and grade <76:
     print("Grade/Mark: 3.0")
     print("Description: Passing")
 elif grade >= 65 and grade <= 74:
