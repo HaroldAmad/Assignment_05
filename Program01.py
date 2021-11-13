@@ -6,3 +6,6 @@ if grade >= 97 and grade <= 100:
 elif grade >= 94 and grade <= 96:
     print("Grade/Mark: 1.25")
     print("Description: Excellent")
+elif grade >= 91 and grade <= 93:
+    print("Grade/Mark: 1.5")
+    print("Description: Very Good")
